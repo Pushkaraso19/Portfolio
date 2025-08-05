@@ -59,7 +59,7 @@ export const experiences = [
       "Delivered the project within 4 weeks, ahead of the proposed timeline"
     ],
     documentation: {
-      certificate: "src/assets/scoecertificate.pdf",
+      certificate: "/certificate/scoecertificate.pdf",
       projectDemo: "#"
     }
   },
@@ -133,7 +133,7 @@ export const projects = [
     title: "Arcade Games",
     description: "The Arcade Games project is a Python-based desktop application that brings together three classic arcade-style mini-games into a single experience. Developed using Python’s Tkinter GUI toolkit and the Turtle graphics module, the project showcases interactive gameplay and fundamental game development concepts.",
     technologies: ["Python", "Turtle", "Tkinter", "Game Development"],
-    image: "src/assets/projects/arcadegames.png",
+    image: "/projects/arcadegames.png",
     alt: "Arcade Games",
     links: {
       github: "https://github.com/Pushkaraso19/Arcade_Games"
@@ -144,7 +144,7 @@ export const projects = [
     title: "Workspace Management System",
     description: "The Workspace Management System is a comprehensive solution designed to streamline and optimize workspace operations. Developed using Python with the Tkinter library for creating a user-friendly graphical interface and MySQL for efficient data management, this system offers a centralized platform for managing various aspects of a workspace.",
     technologies: ["Python", "Tkinter", "CustomTKinter", "MySQL"],
-    image: "src/assets/projects/wms.png",
+    image: "/projects/wms.png",
     alt: "Workspace Management System",
     links: {
       github: "https://github.com/Pushkaraso19/Workspace_Management_System"
@@ -155,7 +155,7 @@ export const projects = [
     title: "My Book Chronicle",
     description: "My Book Chronicle is a web application designed to help users track and manage their reading lists. The application allows users to add, update, and delete books from their personal reading list, as well as mark books as read or unread.",
     technologies: ["EJS", "CSS", "Node.js", "Express.js", "REST API", "MySQL"],
-    image: "src/assets/projects/mybookchronicle.png",
+    image: "/projects/mybookchronicle.png",
     alt: "My Book Chronicle",
     links: {
       github: "https://github.com/Pushkaraso19/My-Book-Chronicle"
@@ -166,7 +166,7 @@ export const projects = [
     title: "CodeCompile",
     description: "CodeCompile is a professional online code compiler designed to help developers write, test, and execute code in multiple programming languages without setting up local environments. It supports Python, JavaScript, Java, Ruby, and Go with real-time Docker-based execution and a user-friendly interface.",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "Docker", "Cloud Computing"],
-    image: "src/assets/projects/codecompile.png",
+    image: "/projects/codecompile.png",
     alt: "CodeCompile",
     links: {
       github: "https://github.com/Pushkaraso19/CodeCompile"
@@ -177,7 +177,7 @@ export const projects = [
     title: "DataViz",
     description: "DataViz is a web app for uploading and visualizing data using charts like bar, line, pie, and more. Features include real-time chart updates, color and style customization, CSV/JSON import, and chart export options (PNG/SVG). Designed for ease of use and flexibility in exploring datasets visually.",
     technologies: ["React", "Vite", "Framer Motion", "Tailwind CSS", "D3.js"],
-    image: "src/assets/projects/dataviz.png",
+    image: "/projects/dataviz.png",
     alt: "DataViz",
     links: {
       github: "https://github.com/Pushkaraso19/DataViz"
@@ -209,7 +209,7 @@ export const education = [
     institution: "Success Classes of Engineering",
     period: "2024",
     status: "completed",
-    certificateUrl: "src/assets/certificate/java.png",
+    certificateUrl: "/certificate/java.png",
     category: "certification"
   },
   {
@@ -226,7 +226,7 @@ export const education = [
     institution: "Udemy - Angela Yu",
     period: "2025",
     status: "completed",
-    certificateUrl: "src/assets/certificate/webdev.pdf",
+    certificateUrl: "/certificate/webdev.pdf",
     category: "certification"
   }
 ];

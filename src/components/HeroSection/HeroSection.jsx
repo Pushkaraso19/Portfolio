@@ -3,7 +3,6 @@ import ProfileCard from './ProfileCard/ProfileCard';
 import CountUp from '../../TextAnimations/CountUp/CountUp';
 import DecryptedText from '../../TextAnimations/DecryptedText/DecryptedText';
 import photoImage from '../../assets/photo.png';
-import logo from '../../assets/logo.png';
 import './HeroSection.css';
 
 const HeroSection = ({ personalInfo, onNavigate }) => {
@@ -122,7 +121,6 @@ const HeroSection = ({ personalInfo, onNavigate }) => {
               handle="pushkar.dev"
               status="Open to Work!"
               contactText="Contact Me"
-              iconUrl={logo}
               avatarUrl={photoImage}
               showUserInfo={true}
               enableTilt={true}

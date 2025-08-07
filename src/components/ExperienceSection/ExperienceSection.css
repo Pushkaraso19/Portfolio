@@ -1,7 +1,17 @@
 /* Experience Section with Curved Timeline */
+.experience-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem;
+  position: relative;
+}
+
 .experience-section .container {
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .experience-list {
@@ -10,8 +20,9 @@
   flex-direction: column;
   gap: 3rem;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 /* Center Timeline Line */
@@ -52,12 +63,12 @@
 /* Alternate positioning with curved connectors */
 .experience-item:nth-child(odd) {
   align-self: flex-start;
-  margin-right: 55%;
+  margin-right: 35%;
 }
 
 .experience-item:nth-child(even) {
   align-self: flex-end;
-  margin-left: 55%;
+  margin-left: 35%;
 }
 
 /* Curved connector lines */
@@ -65,7 +76,7 @@
   content: '';
   position: absolute;
   top: 50%;
-  width:9%;
+  width: 60px;
   height: 2px;
   background: linear-gradient(90deg, 
     rgba(248, 80, 2, 0.6) 0%, 
@@ -74,7 +85,7 @@
 }
 
 .experience-item:nth-child(odd)::after {
-  right: -49px;
+  right: -59px;
   border-radius: 0 10px 10px 0;
   background: linear-gradient(90deg, 
     rgba(248, 80, 2, 0.6) 0%, 
@@ -96,22 +107,22 @@
   top: 50%;
   width: 16px;
   height: 16px;
-  background: linear-gradient(135deg, #F85002 100%, #C10801 100%);
-  border: 2px solid rgba(13, 17, 23, 0.9);
+  background: linear-gradient(135deg, #F85002 0%, #C10801 100%);
+  border: 3px solid rgba(13, 17, 23, 0.9);
   border-radius: 50%;
   box-shadow: 
-    0 0 20px rgba(248, 80, 2, 0.7),
-    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+    0 0 40px rgba(248, 80, 2, 1),
+    inset 0 2px 4px rgba(255, 255, 255, 0.5);
   z-index: 3;
   transform: translateY(-50%);
 }
 
 .experience-item:nth-child(odd)::before {
-  right:  -13%;
+  right: -71px;
 }
 
 .experience-item:nth-child(even)::before {
-  left: -13%;
+  left: -71px;
 }
 
 .experience-item:hover {
@@ -129,9 +140,9 @@
 
 .experience-item:hover::before {
   box-shadow: 
-    0 0 25px rgba(248, 80, 2, 0.9),
-    inset 0 2px 4px rgba(255, 255, 255, 0.3);
-  transform: translateY(-8px) scale(1.15);
+    0 0 25px rgba(248, 80, 2, 1),
+    inset 0 2px 4px rgba(255, 255, 255, 0.5);
+  transform: translateY(-50%) scale(1.15);
 }
 
 /* Minimalist Header - Updated for new layout */
@@ -190,14 +201,14 @@
 }
 
 .experience-item:nth-child(odd) .experience-dates {
-  right: -70%;
+  right: -360px;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
 
 .experience-item:nth-child(even) .experience-dates {
-  left: -70%;
+  left: -360px;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;

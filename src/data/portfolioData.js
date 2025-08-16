@@ -77,18 +77,17 @@ export const skills = [
       { name: "Tailwind CSS", svgPath: "/icons/languages-frameworks/tailwindcss.svg", status: "Intermediate" },
       { name: "BootStrap", svgPath: "/icons/languages-frameworks/bootstrap.svg", status: "Intermediate" },
       { name: "Framer Motion", svgPath: "/icons/languages-frameworks/framer-motion.svg", status: "Intermediate" },
-      { name: "Node.js", svgPath: "/icons/languages-frameworks/nodejs.svg", status: "Intermediate" },
-      { name: "Express.js", svgPath: "/icons/languages-frameworks/express.svg", status: "Intermediate" },
       { name: "Python", svgPath: "/icons/languages-frameworks/python.svg", status: "Intermediate" },
       { name: "C", svgPath: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg", status: "Intermediate" },
       { name: "Java", svgPath: "/icons/languages-frameworks/java.svg", status: "Advanced" },
-      { name: "Cloud Computing", svgPath: "/icons/languages-frameworks/cloud.png", status: "Basic" },
-      { name: "Data Analysis & Visualization", svgPath: "/icons/languages-frameworks/data-analytics.png", status: "Intermediate" },
     ]
   },
   {
     category: "Backend & DevOps",
     items: [
+      { name: "Node.js", svgPath: "/icons/backend-devops/nodejs.svg", status: "Intermediate" },
+      { name: "Express.js", svgPath: "/icons/backend-devops/express.svg", status: "Intermediate" },
+      { name: "REST API", svgPath: "/icons/backend-devops/restapi.png", status: "Intermediate" },
       { name: "MongoDB", svgPath: "/icons/backend-devops/mongodb.svg", status: "Basic" },
       { name: "MySQL", svgPath: "/icons/backend-devops/mysql.svg", status: "Intermediate" },
       { name: "PostgreSQL", svgPath: "/icons/backend-devops/postgresql.svg", status: "Intermediate" },
@@ -100,6 +99,7 @@ export const skills = [
       { name: "Netlify", svgPath: "/icons/backend-devops/netlify.svg", status: "Basic" },
       { name: "Render", svgPath: "/icons/backend-devops/render.svg", status: "Intermediate" },
       { name: "Hostinger", svgPath: "/icons/backend-devops/hostinger.svg", status: "Intermediate" },
+      { name: "Cloud Computing", svgPath: "/icons/backend-devops/cloud.png", status: "Basic" },
     ]
   },
   {
@@ -110,6 +110,7 @@ export const skills = [
       { name: "Linux", svgPath: "/icons/tools-platforms/linux.svg", status: "Intermediate" },
       { name: "PyCharm", svgPath: "/icons/tools-platforms/pycharm.svg", status: "Intermediate" },
       { name: "IntelliJ IDEA", svgPath: "/icons/tools-platforms/intellij-idea.svg", status: "Intermediate" },
+      { name: "Data Analysis & Visualization", svgPath: "/icons/tools-platforms/data-analytics.png", status: "Intermediate" },
       { name: "Wordpress", svgPath: "/icons/tools-platforms/wordpress.svg", status: "Intermediate" },
     ]
   },
@@ -180,7 +181,8 @@ export const projects = [
     image: "/projects/dataviz.png",
     alt: "DataViz",
     links: {
-      github: "https://github.com/Pushkaraso19/DataViz"
+      github: "https://github.com/Pushkaraso19/DataViz",
+      demo: "https://datavizprox.netlify.app/"
     }
   }
 ];

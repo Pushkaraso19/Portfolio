@@ -214,19 +214,20 @@ export const education = [
   },
   {
     id: 4,
-    title: "The Complete Python Pro Bootcamp",
-    institution: "Udemy - Angela Yu",
-    period: "2025",
-    status: "completed",
-    category: "certification"
-  },
-  {
-    id: 5,
     title: "The Complete Full Stack Web Development Bootcamp",
     institution: "Udemy - Angela Yu",
     period: "2025",
     status: "completed",
     certificateUrl: "/certificate/webdev.pdf",
+    category: "certification"
+  },
+  {
+    id: 5,
+    title: "100 Days of Code: The Complete Python Pro Bootcamp",
+    institution: "Udemy - Angela Yu",
+    period: "2025",
+    status: "completed",
+    certificateUrl: "/certificate/python.pdf",
     category: "certification"
   }
 ];

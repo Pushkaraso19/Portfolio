@@ -81,10 +81,10 @@ const HeroSection = ({ personalInfo, onNavigate }) => {
               <span className="stat-number">
                 <CountUp
                   from={0}
-                  to={20000}
+                  to={30000}
                   separator=","
                   direction="up"
-                  duration={1}
+                  duration={0.5}
                   className="count-up-text"
                 />
                 +

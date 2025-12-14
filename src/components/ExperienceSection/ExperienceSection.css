@@ -76,7 +76,7 @@
   content: '';
   position: absolute;
   top: 50%;
-  width: 60px;
+  width: 11%;
   height: 2px;
   background: linear-gradient(90deg, 
     rgba(248, 80, 2, 0.6) 0%, 
@@ -85,7 +85,7 @@
 }
 
 .experience-item:nth-child(odd)::after {
-  right: -59px;
+  right: -11%;
   border-radius: 0 10px 10px 0;
   background: linear-gradient(90deg, 
     rgba(248, 80, 2, 0.6) 0%, 
@@ -93,7 +93,7 @@
 }
 
 .experience-item:nth-child(even)::after {
-  left: -49px;
+  left: -11%;
   border-radius: 10px 0 0 10px;
   background: linear-gradient(-90deg, 
     rgba(248, 80, 2, 0.6) 0%, 
@@ -107,7 +107,7 @@
   top: 50%;
   width: 16px;
   height: 16px;
-  background: linear-gradient(135deg, #F85002 0%, #C10801 100%);
+  background: linear-gradient(135deg, #F85002 10%, #C10801 100%);
   border: 3px solid rgba(13, 17, 23, 0.9);
   border-radius: 50%;
   box-shadow: 
@@ -118,11 +118,11 @@
 }
 
 .experience-item:nth-child(odd)::before {
-  right: -71px;
+  right: -13%;
 }
 
 .experience-item:nth-child(even)::before {
-  left: -71px;
+  left: -13%;
 }
 
 .experience-item:hover {
@@ -349,7 +349,7 @@
 
   .experience-item:nth-child(odd)::before,
   .experience-item:nth-child(even)::before {
-    left: -40px;
+    left: -30px;
     right: auto;
     top: 2rem;
     transform: none;

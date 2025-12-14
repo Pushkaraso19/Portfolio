@@ -1,12 +1,11 @@
 export const personalInfo = {
   name: "Pushkar Asodekar",
   titles: [
-    'Full Stack Web Developer',
-    'Software Engineer',
-    'AI Enthusiast',
+    'Software Developer',
+    'AI & ML/DL Enthusiast',
     'Problem Solver'
   ],
-  description: "Creative Full Stack Developer blending UI elegance with robust backend systems, passionate about building impactful, user-centric digital experiences."
+  description: "Creative Software Developer blending UI elegance with robust backend systems, passionate about building impactful, user-centric digital experiences."
 };
 
 export const aboutInfo = {
@@ -21,6 +20,7 @@ export const aboutInfo = {
     specialties: [
       "React & Express.js",
       "Scalable Web Architecture",
+      "Python (Development, Machine/Deep Learning)",
       "Data Structures & Algorithms"
     ],
     passions: [
@@ -62,8 +62,7 @@ export const experiences = [
       certificate: "/certificate/scoecertificate.pdf",
       projectDemo: "#"
     }
-  },
-  
+  }
 ];
 
 export const skills = [
@@ -75,7 +74,7 @@ export const skills = [
       { name: "JavaScript", svgPath: "/icons/languages-frameworks/javascript.svg", status: "Intermediate" },
       { name: "React", svgPath: "/icons/languages-frameworks/react.svg", status: "Intermediate" },
       { name: "Tailwind CSS", svgPath: "/icons/languages-frameworks/tailwindcss.svg", status: "Intermediate" },
-      { name: "BootStrap", svgPath: "/icons/languages-frameworks/bootstrap.svg", status: "Intermediate" },
+      { name: "Bootstrap", svgPath: "/icons/languages-frameworks/bootstrap.svg", status: "Intermediate" },
       { name: "Framer Motion", svgPath: "/icons/languages-frameworks/framer-motion.svg", status: "Intermediate" },
       { name: "Python", svgPath: "/icons/languages-frameworks/python.svg", status: "Intermediate" },
       { name: "C", svgPath: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg", status: "Intermediate" },
@@ -94,7 +93,7 @@ export const skills = [
       { name: "Docker", svgPath: "/icons/backend-devops/docker.svg", status: "Basic" },
       { name: "Git", svgPath: "/icons/backend-devops/git.svg", status: "Intermediate" },
       { name: "GitHub", svgPath: "/icons/backend-devops/github.svg", status: "Advanced" },
-      { name: "Postman", svgPath: "/icons/backend-devops/postmansvg.svg", status: "Intermediate" },
+      { name: "Postman", svgPath: "/icons/backend-devops/postman.svg", status: "Intermediate" },
       { name: "Vercel", svgPath: "/icons/backend-devops/vercel.svg", status: "Basic" },
       { name: "Netlify", svgPath: "/icons/backend-devops/netlify.svg", status: "Basic" },
       { name: "Render", svgPath: "/icons/backend-devops/render.svg", status: "Intermediate" },
@@ -111,15 +110,18 @@ export const skills = [
       { name: "PyCharm", svgPath: "/icons/tools-platforms/pycharm.svg", status: "Intermediate" },
       { name: "IntelliJ IDEA", svgPath: "/icons/tools-platforms/intellij-idea.svg", status: "Intermediate" },
       { name: "Data Analysis & Visualization", svgPath: "/icons/tools-platforms/data-analytics.png", status: "Intermediate" },
-      { name: "Wordpress", svgPath: "/icons/tools-platforms/wordpress.svg", status: "Intermediate" },
+      { name: "WordPress", svgPath: "/icons/tools-platforms/wordpress.svg", status: "Intermediate" },
     ]
   },
   {
     category: "Emerging Technologies",
     items: [
-      { name: "Machine Learning", svgPath: "/icons/emerging-technologies/machine-learning.png", status: "Intermediate" },
+      { name: "Machine Learning / Deep Learning", svgPath: "/icons/emerging-technologies/machine-learning.png", status: "Intermediate" },
       { name: "Blockchain", svgPath: "/icons/emerging-technologies/blockchain.svg", status: "Basic" },
       { name: "Web3", svgPath: "/icons/emerging-technologies/web3.png", status: "Basic" },
+      { name: "Solidity", svgPath: "/icons/emerging-technologies/solidity.svg", status: "Basic" },
+    { name: "MetaMask", svgPath: "/icons/emerging-technologies/metamask.svg", status: "Basic" },
+    { name: "Ganache", svgPath: "/icons/emerging-technologies/ganache.svg", status: "Basic" },
       { name: "ICP (Internet Computer)", svgPath: "/icons/emerging-technologies/icp.png", status: "Basic" }
     ]
   }
@@ -131,6 +133,18 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "DataViz",
+    description: "DataViz is a web app for uploading and visualizing data using charts like bar, line, pie, and more. Features include real-time chart updates, color and style customization, CSV/JSON import, and chart export options (PNG/SVG). Designed for ease of use and flexibility in exploring datasets visually.",
+    technologies: ["React", "Vite", "Framer Motion", "Tailwind CSS", "D3.js"],
+    image: "/projects/dataviz.png",
+    alt: "DataViz",
+    links: {
+      github: "https://github.com/Pushkaraso19/DataViz",
+      demo: "https://datavizprox.netlify.app/"
+    }
+  },
+  {
+    id: 2,
     title: "Arcade Games",
     description: "The Arcade Games project is a Python-based desktop application that brings together three classic arcade-style mini-games into a single experience. Developed using Python’s Tkinter GUI toolkit and the Turtle graphics module, the project showcases interactive gameplay and fundamental game development concepts.",
     technologies: ["Python", "Turtle", "Tkinter", "Game Development"],
@@ -141,7 +155,7 @@ export const projects = [
     }
   },
   {
-    id: 2,
+    id: 3,
     title: "Workspace Management System",
     description: "The Workspace Management System is a comprehensive solution designed to streamline and optimize workspace operations. Developed using Python with the Tkinter library for creating a user-friendly graphical interface and MySQL for efficient data management, this system offers a centralized platform for managing various aspects of a workspace.",
     technologies: ["Python", "Tkinter", "CustomTKinter", "MySQL"],
@@ -152,7 +166,7 @@ export const projects = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: "My Book Chronicle",
     description: "My Book Chronicle is a web application designed to help users track and manage their reading lists. The application allows users to add, update, and delete books from their personal reading list, as well as mark books as read or unread.",
     technologies: ["EJS", "CSS", "Node.js", "Express.js", "REST API", "MySQL"],
@@ -163,7 +177,7 @@ export const projects = [
     }
   },
   {
-    id: 4,
+    id: 5,
     title: "CodeCompile",
     description: "CodeCompile is a professional online code compiler designed to help developers write, test, and execute code in multiple programming languages without setting up local environments. It supports Python, JavaScript, Java, Ruby, and Go with real-time Docker-based execution and a user-friendly interface.",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "Docker", "Cloud Computing"],
@@ -172,19 +186,7 @@ export const projects = [
     links: {
       github: "https://github.com/Pushkaraso19/CodeCompile"
     }
-  },
-  {
-    id: 5,
-    title: "DataViz",
-    description: "DataViz is a web app for uploading and visualizing data using charts like bar, line, pie, and more. Features include real-time chart updates, color and style customization, CSV/JSON import, and chart export options (PNG/SVG). Designed for ease of use and flexibility in exploring datasets visually.",
-    technologies: ["React", "Vite", "Framer Motion", "Tailwind CSS", "D3.js"],
-    image: "/projects/dataviz.png",
-    alt: "DataViz",
-    links: {
-      github: "https://github.com/Pushkaraso19/DataViz",
-      demo: "https://datavizprox.netlify.app/"
-    }
-  }
+  }  
 ];
 
 export const education = [
@@ -194,6 +196,7 @@ export const education = [
     institution: "University of Mumbai [Konkan Gyanpeeth College of Engineering]",
     period: "2022 - 2026",
     status: "pursuing",
+    grade: "Current CGPA: 8.21",
     category: "education"
   },
   {

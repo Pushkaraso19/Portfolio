@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: center;
   width: fit-content;
+  min-width: fit-content;
   gap: 0.5rem;
   border-radius: 2rem;
   
@@ -25,7 +26,7 @@
   /* Refined border */
   /* border: 1px solid rgba(248, 80, 2, 0.2); */
   
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   z-index: 9999;
   
   /* Enhanced shadows for depth */
@@ -73,8 +74,11 @@
   color: #F0F0F0;
   
   /* Improved interaction area */
+  width: 3rem !important;
+  height: 3rem !important;
   min-width: 3rem;
   min-height: 3rem;
+  flex-shrink: 0;
   
   /* Touch optimization */
   user-select: none;
@@ -191,7 +195,7 @@
   .dock-panel {
     bottom: 1rem;
     gap: 0.375rem;
-    padding: 0.875rem 1.125rem;
+    padding: 0.65rem 0.875rem;
     border-radius: 1.75rem;
     /* Make it more prominent on mobile */
     box-shadow: 
@@ -201,11 +205,14 @@
   }
   
   .dock-item {
+    width: 2.75rem !important;
+    height: 2.75rem !important;
     min-width: 2.75rem;
     min-height: 2.75rem;
     border-radius: 0.875rem;
     /* Better touch targets */
     touch-action: manipulation;
+    flex-shrink: 0;
   }
   
   .dock-item:hover {
@@ -231,16 +238,19 @@
     width: fit-content;
     bottom: 0.75rem;
     gap: 0.25rem;
-    padding: 0.75rem 0.875rem;
+    padding: 0.6rem 0.75rem;
     border-radius: 1.5rem;
     /* Ensure it doesn't get too wide */
     max-width: calc(100vw - 2rem);
   }
   
   .dock-item {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
     min-width: 2.5rem;
     min-height: 2.5rem;
     border-radius: 0.75rem;
+    flex-shrink: 0;
   }
   
   .dock-icon {
@@ -260,14 +270,17 @@
   .dock-panel {
     bottom: 0.5rem;
     gap: 0.2rem;
-    padding: 0.625rem 0.75rem;
+    padding: 0.5rem 0.625rem;
     border-radius: 1.25rem;
   }
   
   .dock-item {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
     min-width: 2.25rem;
     min-height: 2.25rem;
     border-radius: 0.625rem;
+    flex-shrink: 0;
   }
   
   .dock-icon {
@@ -285,14 +298,17 @@
 @media (max-width: 768px) and (orientation: landscape) {
   .dock-panel {
     bottom: 0.5rem;
-    padding: 0.625rem 0.875rem;
+    padding: 0.5rem 0.75rem;
     /* Reduce height in landscape mode */
     border-radius: 1.25rem;
   }
   
   .dock-item {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
     min-width: 2.25rem;
     min-height: 2.25rem;
+    flex-shrink: 0;
   }
   
   .dock-label {
@@ -304,18 +320,18 @@
 /* Safe area padding for devices with notches */
 @supports (padding-bottom: env(safe-area-inset-bottom)) {
   .dock-panel {
-    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+    padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
   }
   
   @media (max-width: 768px) {
     .dock-panel {
-      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+      padding-bottom: calc(0.65rem + env(safe-area-inset-bottom));
     }
   }
   
   @media (max-width: 480px) {
     .dock-panel {
-      padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+      padding-bottom: calc(0.6rem + env(safe-area-inset-bottom));
     }
   }
 }

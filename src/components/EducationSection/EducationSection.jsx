@@ -79,7 +79,7 @@ const EducationSection = ({ education }) => {
                               <span className={`status-value ${edu.status}`}>{edu.status}</span>
                             </div>
                           )}
-                          {edu.status === 'completed' && edu.grade && (
+                          {edu.grade && (
                             <div className="education-grade">
                               <span className="grade-label">Grade:</span>
                               <span className="grade-value">{edu.grade}</span>

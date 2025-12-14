@@ -69,7 +69,7 @@ const DockIcon = ({ type, isActive }) => {
             );
         case 'resume':
             return (
-                <img src="/logo.png" alt="Logo" style={{ height: '34px', width: '34px' }}/>
+                <img src="/logo.png" alt="Logo" style={{ height: '28px', width: '28px' }}/>
             );
         case 'divider':
             return (
